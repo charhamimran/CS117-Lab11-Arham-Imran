@@ -10,7 +10,7 @@ def main():
 
     total_mb = num_files * size_mb
     total_kb = total_mb * 1024
-    total_gb = total_mb / 1024
+    total_gb = total_mb / 1024     # 1 GB = 1024 MB
 
     print("Total storage needed:")
     print(f"  {total_kb:.2f} KB")
